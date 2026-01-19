@@ -1,0 +1,15 @@
+.thumb {
+    width: 56px;           /* Tamanho fixo da largura */
+    height: 56px;          /* Tamanho fixo da altura */
+    border-radius: 16px;   /* Curva da borda */
+    overflow: hidden;      /* Corta a imagem para obedecer a curva da borda */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thumb img {
+    width: 100%;           /* Garante que a imagem preencha a largura */
+    height: 100%;          /* Garante que a imagem preencha a altura */
+    object-fit: cover;     /* Mantém a proporção da foto sem distorcer */
+}
